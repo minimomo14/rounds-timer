@@ -6,6 +6,9 @@
 body {
     height: 100vh;
     margin: auto;
+    color: aliceblue;
+    background-color: #111;
+    position: relative;
 
 }
 
@@ -17,6 +20,66 @@ body {
     align-items: center;
 }
 
-.inputs-container {
+.inputs-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: cadetblue;
+    color: #ffffff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 15px 10px #3333;
+}
 
+
+.inputs-container:hover{
+    box-shadow: 0 10px 5px #3333;
+    transition: all .2s ease;
+}
+
+.rounds-timer-container{
+    width: 600px;
+}
+
+.title {
+    font-size: 5rem;
+    text-align: center;
+    margin: 15vh 0;
+
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h4 {
+    text-align: center;
+}
+
+.input-timer {
+    padding: 1rem;
+}
+
+label.roundsTimer {
+    font-size: 1.3rem;
+    color: navy;
+}
+
+label.restTimer {
+    font-size: 1.3rem;
+    color: salmon;
+}
+
+.btn {
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: greenyellow;
+    color: #111;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.btn:active {
+    transform: scale(0.95);
 }
